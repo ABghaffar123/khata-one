@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Khata One</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_customers">Customers</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Home Dashboard -->
+    <string name="dashboard">Dashboard</string>
+    <string name="total_balance">Kul Balance</string>
+    <string name="total_given">Diya Gaya</string>
+    <string name="total_received">Mansool</string>
+    <string name="pending_amount">Baqi Rakam</string>
+    <string name="top_debtors">Aala Qarzdaar</string>
+    <string name="recent_activity">Haaliya Sargarmi</string>
+    <string name="new_entry">Nai Entry</string>
+    <string name="scan">Scan</string>
+    <string name="todays_entries">Aaj Ki Entries</string>
+    <string name="cash_flow_today">Aaj Ka Cash Flow</string>
+    <string name="net_positive">Kharaas Musbat</string>
+    <string name="net_negative">Kharaas Manfi</string>
+    <string name="entries_count">%d Entries</string>
+    <string name="total_amount">Kul %s</string>
+    <string name="search_hint">Customers, entries dhoondain…</string>
+    <string name="filter_all">Sab</string>
+    <string name="filter_credit">Qarz</string>
+    <string name="filter_payment">Adaigi</string>
+    <string name="filter_pending">Zair-e-Intizaar</string>
+    <string name="view_all_transactions">Sab Dekhein</string>
+    <string name="clear">Saaf Karein</string>
+    <string name="notifications">Ittilaat</string>
+    <string name="greeting_morning">Subah Bakhair</string>
+    <string name="greeting_afternoon">Dopahar Bakhair</string>
+    <string name="greeting_evening">Shaam Bakhair</string>
+    
+    <!-- Customers -->
+    <string name="customers">Customers</string>
+    <string name="customers_count">%d Customers</string>
+    <string name="total_customers">Kul</string>
+    <string name="pending_count_label">Zair-e-Intizaar</string>
+    <string name="settled_count_label">Tasleem Shuda</string>
+    <string name="suppliers">Suppliers</string>
+    <string name="suppliers_count">%d Suppliers</string>
+    <string name="total_payable">Kul Qabil-e-Adaigi</string>
+    <string name="total_suppliers">Kul</string>
+    <string name="owed">Baqi</string>
+    <string name="cleared">Tasleem Shuda</string>
+    <string name="last_days_ago">%d Din Pehle</string>
+    <string name="add_customer">Customer Shamil Karein</string>
+    <string name="add_supplier">Supplier Shamil Karein</string>
+    <string name="edit_customer">Customer Mein Tarmeem</string>
+    <string name="customer_name">Customer Ka Naam</string>
+    <string name="phone">Phone</string>
+    <string name="address">Pata</string>
+    <string name="notes">Notes</string>
+    <string name="search_customers">Naam ya Phone Se Dhoondain…</string>
+    <string name="search_suppliers">Suppliers Naam Se Dhoondain…</string>
+    <string name="no_customers">Koi Customer Nahi Mila</string>
+    <string name="no_customers_title">Abhi Tak Koi Customer Nahi</string>
+    <string name="no_customers_message">Shuru Karne Ke Liye Apna Pehla Customer Shamil Karein</string>
+    <string name="no_suppliers_title">Abhi Tak Koi Supplier Nahi</string>
+    <string name="no_suppliers_message">Adaigiyan Track Karne Ke Liye Apna Pehla Supplier Shamil Karein</string>
+    <string name="add_first_supplier">Supplier Shamil Karein</string>
+    <string name="no_results_title">"%s" Ke Liye Koi Nateeja Nahi</string>
+    <string name="no_results_message">Koi Aur Dhoond Ki Istilaah Aazmaayein</string>
+    <string name="add_first_customer">Customer Shamil Karein</string>
+    <string name="clear_search">Dhoond Saaf Karein</string>
+    <string name="sort_by">Tarteeb</string>
+    <string name="sort_name">Naam (A→Z)</string>
+    <string name="sort_balance">Balance (Zyada→Kam)</string>
+    <string name="sort_recent">Haaliya Sargarmi</string>
+    <string name="sort_overdue">Muddat Khatam Pehle</string>
+    <string name="sort_amount_owed">Baqi Rakam (Zyada→Kam)</string>
+    <string name="sort_most_purchased">Zyada Kharidaari</string>
+    <string name="view_all">Sab Dekhein</string>
+    <string name="quick_call">Call</string>
+    <string name="quick_message">Peghaam</string>
+    <string name="quick_payment">Adaigi</string>
+    <string name="quick_history">Tareekh</string>
+    <string name="quick_note">Note</string>
+    
+    <!-- Transactions -->
+    <string name="new_transaction">Nai Lain-Dain</string>
+    <string name="transaction_type">Lain-Dain Ki Qisam</string>
+    <string name="gave_credit">Diya (Qarz)</string>
+    <string name="received">Mansool</string>
+    <string name="amount">Rakam</string>
+    <string name="description">Tafseel</string>
+    <string name="category">Zimra</string>
+    <string name="mark_as_paid">Adaigi Nishaan Lagayein</string>
+    <string name="due_date">Aakhri Tareekh</string>
+    <string name="save_entry">Entry Mehfooz Karein</string>
+    
+    <!-- Reports -->
+    <string name="reports">Reports</string>
+    <string name="daily_summary">Rozana Khulaasa</string>
+    <string name="weekly_summary">Haftawaar Khulaasa</string>
+    <string name="monthly_summary">Maanaana Khulaasa</string>
+    <string name="credit_given">Diya Gaya Qarz</string>
+    <string name="payment_received">Mansool Adaigi</string>
+    <string name="net_pending">Kharaas Baqi</string>
+    <string name="export_pdf">PDF Baramad</string>
+    <string name="export_csv">CSV Baramad</string>
+    <string name="share">Share</string>
+    <string name="date_filter">Tareekh Filter</string>
+    <string name="category_filter">Zimra Filter</string>
+    
+    <!-- OCR -->
+    <string name="scan_document">Dastavez Scan</string>
+    <string name="capture_document">Dastavez Ki Tasveer Lein</string>
+    <string name="extract_text">Matan Nikaalein</string>
+    <string name="extracted_text">Nikaala Gaya Matan</string>
+    <string name="use_text">Matan Istemaal Karein</string>
+    <string name="retake">Dobara Lein</string>
+    
+    <!-- OCR Scan (Premium) -->
+    <string name="ocr_scan_khata">Khata Scan Karein</string>
+    <string name="ocr_position_guide">Khata Ka Safha Frame Ke Andar Rakhein</string>
+    <string name="ocr_auto_detect_edges">Khudkaar Kinare Pehchanein</string>
+    <string name="ocr_show_grid">Grid Dikhayein</string>
+    <string name="ocr_flash">Flash</string>
+    <string name="ocr_capture">Capture</string>
+    <string name="ocr_gallery">Gallery</string>
+    <string name="ocr_manual_entry">Dasti Entry</string>
+    <string name="ocr_processing">Process Ho Raha Hai…</string>
+    <string name="ocr_extracting_text">Matan Nikaala Ja Raha Hai…</string>
+    <string name="ocr_analyzing_handwriting">Haath Se Likhe Gaye Matan Ka Tanqeeh</string>
+    <string name="ocr_camera_active">Camera Faal Hai</string>
+    <string name="ocr_scan_result">Scan Ka Nateeja</string>
+    <string name="ocr_text_extracted">Matan Kamyabi Se Nikaala Gaya</string>
+    <string name="ocr_confidence">Aitebaar</string>
+    <string name="ocr_entries_found">%d Entries Mily</string>
+    <string name="ocr_customers_found">%d Customers</string>
+    <string name="ocr_total">Kul</string>
+    <string name="ocr_extracted_entries">NIKAALI GAI ENTRIES</string>
+    <string name="ocr_add_entry_manually">Dasti Entry Shamil Karein</string>
+    <string name="ocr_save_all">Sab Mehfooz Karein (%d)</string>
+    <string name="ocr_edit_entry">Tarmeem</string>
+    <string name="ocr_delete_entry">Hataayein</string>
+    <string name="ocr_unknown_customer">Na-Maloom Customer</string>
+    <string name="ocr_no_date">Koi Tareekh Nahi</string>
+    <string name="ocr_no_text_found">Koi Matan Nahi Mila</string>
+    <string name="ocr_try_again">Behtar Roshni Mein Dobara Koshish Karein</string>
+    
+    <!-- Settings -->
+    <string name="settings">Tarteebaat</string>
+    <string name="general">Aam</string>
+    <string name="language">Zubaan</string>
+    <string name="theme">Theme</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="backup_data">Data Backup</string>
+    <string name="restore_data">Data Bahaali</string>
+    <string name="local_backup">Maqami Backup</string>
+    <string name="about">Ke Baare Mein</string>
+    <string name="version">Version</string>
+    <string name="rate_us">Hamein Rating Dein</string>
+    
+    <!-- Common -->
+    <string name="save">Mehfooz</string>
+    <string name="cancel">Mansookh</string>
+    <string name="delete">Hataayein</string>
+    <string name="edit">Tarmeem</string>
+    <string name="back">Wapas</string>
+    <string name="loading">Load Ho Raha Hai…</string>
+    <string name="error">Kharabi</string>
+    <string name="retry">Dobara Koshish</string>
+    <string name="no_data">Koi Data Dastyaab Nahi</string>
+    <string name="confirm">Tasdeeq</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="call">Call</string>
+    <string name="sms">SMS</string>
+    
+    <!-- Language Selection -->
+    <string name="choose_language">Apni Zubaan Intekhab Karein</string>
+    <string name="continue_btn">Jaari Rahein</string>
+    <string name="english">English</string>
+    <string name="urdu">Urdu</string>
+    <string name="roman_urdu">Roman Urdu</string>
+    
+    <!-- Time -->
+    <string name="today">Aaj</string>
+    <string name="this_week">Is Haftay</string>
+    <string name="this_month">Is Mahine</string>
+    <string name="custom_range">Hasb-e-Zaroorat</string>
+    
+    <!-- Status -->
+    <string name="settled">Tasleem Shuda</string>
+    <string name="pending">Zair-e-Intizaar</string>
+    <string name="overdue">Muddat Khatam</string>
+    
+    <!-- Theme Selection -->
+    <string name="theme_settings">Theme Ki Tarteebaat</string>
+    <string name="display_mode">Display Mode</string>
+    <string name="theme_presets">Theme Presets</string>
+    <string name="accent_color">Accent Rang</string>
+    <string name="live_preview">Live Pesh-Nazara</string>
+    <string name="apply_theme">Theme Lagu Karein</string>
+    <string name="applied">Lagu Ho Gaya!</string>
+    <string name="reset">Reset</string>
+    <string name="total_dues">Kul Wajaibaat</string>
+    <string name="credit_label">Qarz</string>
+    <string name="payment_label">Adaigi</string>
+    
+    <!-- Theme Names -->
+    <string name="theme_trust_blue">Aitebaar Neela</string>
+    <string name="theme_growth_teal">Taraqqi Sabz</string>
+    <string name="theme_fresh_green">Taaza Sabz</string>
+    <string name="theme_warm_rose">Garam Gulabi</string>
+    <string name="theme_royal_purple">Shahi Jaamni</string>
+    <string name="theme_sunset_orange">Ghuroub Narangi</string>
+    <string name="theme_midnight">Neem Raat</string>
+    <string name="theme_paper_white">Kaghaz Safed</string>
+    
+    <!-- Accent Color Names -->
+    <string name="accent_blue">Neela</string>
+    <string name="accent_green">Sabz</string>
+    <string name="accent_teal">Hara Neela</string>
+    <string name="accent_cyan">Firozi</string>
+    <string name="accent_indigo">Neeli</string>
+    <string name="accent_purple">Jaamni</string>
+    <string name="accent_royal_blue">Shahi Neela</string>
+    <string name="accent_pink">Gulabi</string>
+    <string name="accent_orange">Narangi</string>
+    <string name="accent_red">Surkh</string>
+    <string name="accent_brown">Bhoora</string>
+    <string name="accent_forest">Jangli Sabz</string>
+    
+    <!-- Security Settings -->
+    <string name="security_settings">Security Ki Tarteebaat</string>
+    <string name="security_score">Security Score</string>
+    <string name="security_excellent">Behtareen</string>
+    <string name="security_good">Achha</string>
+    <string name="security_fair">Ausat</string>
+    <string name="security_weak">Kamzor</string>
+    <string name="security_excellent_desc">Behtareen — Aap Ka Data Mehfooz Hai</string>
+    <string name="security_good_desc">Achha — Mazeed Features Fael Karein</string>
+    <string name="security_fair_desc">Ausat — Kuch Hifazaat Naqis Hai</string>
+    <string name="security_weak_desc">Kamzor — Mazeed Security Fael Karein</string>
+    <string name="app_lock">App Lock</string>
+    <string name="pin_lock">PIN Lock</string>
+    <string name="pin_lock_desc">4-6 Hindsuon Ke PIN Se Apni App Mehfooz Karein</string>
+    <string name="change_pin">PIN Tabdeel Karein</string>
+    <string name="remove_pin">PIN Hataayein</string>
+    <string name="biometric_lock">Biometric Lock</string>
+    <string name="biometric_desc">Kholne Ke Liye Fingerprint Ya Chehre Ka Istemaal Karein</string>
+    <string name="biometric_active">Faal</string>
+    <string name="biometric_not_available">Is Device Par Dastyaab Nahi</string>
+    <string name="test_biometric">Biometric Test Karein</string>
+    <string name="auto_lock">Khudkaar Lock</string>
+    <string name="auto_lock_desc">Istemal Mein Na Honay Par Khudkaar Tor Par App Lock Karein</string>
+    <string name="auto_lock_immediately">Fauran</string>
+    <string name="auto_lock_1min">1 Minute Baad</string>
+    <string name="auto_lock_5min">5 Minute Baad</string>
+    <string name="auto_lock_15min">15 Minute Baad</string>
+    <string name="auto_lock_30min">30 Minute Baad</string>
+    <string name="auto_lock_never">Kabhi Nahi</string>
+    <string name="data_protection">Data Ki Hifazaat</string>
+    <string name="backup_encryption">Backup Khifaakari</string>
+    <string name="backup_encryption_desc">AES-256 Se Apne Backup Khifa Karein</string>
+    <string name="encryption_status">Khifaakari Ki Haalat</string>
+    <string name="algorithm">Algorithm</string>
+    <string name="key_length">Kaleed Lambai</string>
+    <string name="change_password">Password Tabdeel Karein</string>
+    <string name="view_backup_history">Backup Ki Tareekh Dekhein</string>
+    <string name="session_security">Session Security</string>
+    <string name="clear_on_failed">3 Nakaam Koshishon Par Data Saaf Karein</string>
+    <string name="clear_on_failed_desc">3 Ghalt PIN Koshishon Ke Baad App Data Saaf Karein</string>
+    <string name="hide_in_background">Background Mein Hassas Data Chupayein</string>
+    <string name="hide_in_background_desc">App Background Mein Honay Par Content Dhundla Karein</string>
+    <string name="block_screenshots">App Mein Screenshots Rokein</string>
+    <string name="block_screenshots_desc">Hassas Data Ki Screen Capture Rokein</string>
+    <string name="danger_zone">Khatre Ka Zone</string>
+    <string name="danger_zone_desc">Ye Iqdaam Wapas Nahi Kiye Ja Sakte</string>
+    <string name="remove_all_security">Tamam Security Hataayein</string>
+    <string name="reset_app_data">App Data Reset Karein</string>
+    <string name="not_configured">Mukarrar Nahi</string>
+    <string name="disabled">Ghair Faal</string>
+    <string name="not_yet">Abhi Nahi</string>
+    
+    <!-- Language Selection Screen -->
+    <string name="choose_your_language">Apni Zubaan Intekhab Karein</string>
+    <string name="language_subtitle">Apni Zubaan Intekhab Karein</string>
+    <string name="continue_button">Jaari Rahein</string>
+    <string name="change_later">Aap Ye Tabdeel Settings Mein Badal Sakte Hain</string>
+    <string name="live_preview">Live Pesh-Nazara</string>
+    <string name="sample_welcome_en">Welcome to Khata Book</string>
+    <string name="sample_total_dues_en">Total Dues: Rs 45,000</string>
+    <string name="sample_customer_en">Ahmed Khan owes Rs 5,000</string>
+    <string name="sample_welcome_ur">خ账簿 میں خوش آمدید</string>
+    <string name="sample_total_dues_ur">کل واجبات: 45,000 روپے</string>
+    <string name="sample_customer_ur">احمد خان پر 5,000 روپے باقی ہے</string>
+    <string name="sample_welcome_roman">Khata Book mein Khush Aamdeed</string>
+    <string name="sample_total_dues_roman">Kul Wajaibaat: 45,000 Rupay</string>
+    <string name="sample_customer_roman">Ahmed Khan Par 5,000 Rupay Baqi</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_skip">Chorein →</string>
+    <string name="onboarding_continue">Jaari Rahein</string>
+    <string name="onboarding_get_started">Shuru Karein</string>
+    <string name="onboarding_welcome_title">Khata Book</string>
+    <string name="onboarding_welcome_subtitle">Pakistani Dukandaron Ke Liye\nDigital Khata</string>
+    <string name="onboarding_digital_title">Digital Khata Book</string>
+    <string name="onboarding_digital_subtitle">Apna Dasti Khata Digital\nLedger Se Badlein</string>
+    <string name="onboarding_ocr_title">Scan Aur Nikalein</string>
+    <string name="onboarding_ocr_subtitle">Apne Khata Ka Safha Tasveer Lein\nAur AI Tamam Entries Nikalega</string>
+    <string name="onboarding_secure_title">Mehfooz Aur Offline</string>
+    <string name="onboarding_secure_subtitle">Aap Ka Data Aap Ke Phone Par Rehta Hai\n— 100% Niji</string>
+    <string name="feature_track_customers">Tamam Customers Aur Balance Track Karein</string>
+    <string name="feature_credit_tracking">Qarz, Adaigi Aur Cash Sale Tracking</string>
+    <string name="feature_daily_ledger">Rozana Ledger View — Jaise Aap Ka Khata</string>
+    <string name="feature_capture_handwritten">Hath Se Likhe Khata Ke Safhon Ki Tasveer Lein</string>
+    <string name="feature_ai_extraction">AI Se Matan Nikalein</string>
+    <string name="feature_edit_save">Ek Tap Mein Tarmeem Aur Mehfooz</string>
+    <string name="feature_pin_biometric">PIN + Biometric Lock</string>
+    <string name="feature_backup_restore">Khudkaar Backup Aur Bahaali</string>
+    <string name="feature_offline">Internet Ke Baghair Kaam Karta Hai</string>
+</resources>

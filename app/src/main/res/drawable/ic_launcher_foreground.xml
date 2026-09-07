@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Khata One — App Icon Foreground (Precise K1 Monogram)
+    
+    Layering order (back to front):
+    1. Gold diagonal strokes (K's arms) — BEHIND
+    2. White vertical stroke (shared spine) — FRONT
+    3. White "1" with flag — FRONT
+    
+    This creates the layered depth effect from the reference.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- K1 Monogram — Centered in 66dp safe zone -->
+    <group
+        android:translateX="21"
+        android:translateY="21">
+        
+        <!-- ═══════════════════════════════════════════════════ -->
+        <!-- LAYER 1: GOLD DIAGONAL STROKES (BEHIND)           -->
+        <!-- These are K's upper and lower arms                -->
+        <!-- They sit BEHIND the white vertical stroke         -->
+        <!-- ═══════════════════════════════════════════════════ -->
+        
+        <!-- Upper diagonal arm of K — Gold gradient -->
+        <path
+            android:pathData="M8,24 L44,0 L56,0 L20,24 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="8"
+                    android:startY="24"
+                    android:endX="56"
+                    android:endY="0"
+                    android:startColor="#A07830"
+                    android:endColor="#E8C55A" />
+            </aapt:attr>
+        </path>
+        
+        <!-- Lower diagonal arm of K — Gold gradient -->
+        <path
+            android:pathData="M8,36 L44,60 L56,60 L20,36 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="8"
+                    android:startY="36"
+                    android:endX="56"
+                    android:endY="60"
+                    android:startColor="#8B6828"
+                    android:endColor="#C4973B" />
+            </aapt:attr>
+        </path>
+        
+        <!-- ═══════════════════════════════════════════════════ -->
+        <!-- LAYER 2: WHITE VERTICAL STROKE (FRONT)             -->
+        <!-- This is the shared spine of K and body of 1       -->
+        <!-- Sits ON TOP of gold diagonals                     -->
+        <!-- ═══════════════════════════════════════════════════ -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M0,0 L10,0 L10,60 L0,60 Z" />
+        
+        <!-- ═══════════════════════════════════════════════════ -->
+        <!-- LAYER 3: WHITE "1" (FRONT)                         -->
+        <!-- Vertical stem + small flag at top-left            -->
+        <!-- ═══════════════════════════════════════════════════ -->
+        
+        <!-- 1's vertical stem -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M48,0 L58,0 L58,60 L48,60 Z" />
+        
+        <!-- 1's flag (small diagonal at top-left) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M38,8 L48,0 L48,14 L42,14 Z" />
+    </group>
+</vector>

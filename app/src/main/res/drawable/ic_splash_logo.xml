@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Khata One — Splash Screen Logo (Refined)
+    
+    Design: K1 Monogram in dark circle (matching reference)
+    Layering: Gold behind white, proper proportions
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Dark navy circle background -->
+    <path
+        android:fillColor="#0D1B2A"
+        android:pathData="M48,48 m-44,0 a44,44 0,1,1 88,0 a44,44 0,1,1 -88,0" />
+
+    <!-- K1 Monogram — Centered, Refined -->
+    <group
+        android:translateX="18"
+        android:translateY="18">
+        
+        <!-- LAYER 1: Gold diagonals (BEHIND) -->
+        <path
+            android:pathData="M6,20 L38,0 L48,0 L16,20 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="6"
+                    android:startY="20"
+                    android:endX="48"
+                    android:endY="0"
+                    android:startColor="#A07830"
+                    android:endColor="#E8C55A" />
+            </aapt:attr>
+        </path>
+        
+        <path
+            android:pathData="M6,30 L38,50 L48,50 L16,30 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:type="linear"
+                    android:startX="6"
+                    android:startY="30"
+                    android:endX="48"
+                    android:endY="50"
+                    android:startColor="#8B6828"
+                    android:endColor="#C4973B" />
+            </aapt:attr>
+        </path>
+        
+        <!-- LAYER 2: White vertical (FRONT) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M0,0 L8,0 L8,50 L0,50 Z" />
+        
+        <!-- LAYER 3: White "1" (FRONT) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M40,0 L48,0 L48,50 L40,50 Z" />
+        
+        <!-- 1's flag -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M32,7 L40,0 L40,12 L35,12 Z" />
+    </group>
+</vector>

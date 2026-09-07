@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Khata One — Notification Icon (Updated)
+    
+    Design: Compact K1 monogram in white
+    Used for: Push notifications, status bar
+    
+    Android automatically applies the notification
+    background color based on the theme.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- K1 Monogram — Compact, White -->
+    <group
+        android:translateX="3"
+        android:translateY="3">
+        
+        <!-- White vertical stroke (shared) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M0,0 L3,0 L3,18 L0,18 Z" />
+        
+        <!-- Upper diagonal of K -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M3,8 L12,0 L15,0 L6,8 Z" />
+        
+        <!-- Lower diagonal of K -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M3,10 L12,18 L15,18 L6,10 Z" />
+        
+        <!-- 1's stem -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M14,0 L17,0 L17,18 L14,18 Z" />
+        
+        <!-- 1's flag -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M11,0 L14,0 L14,3 L12.5,3 Z" />
+    </group>
+</vector>
